@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Window Alarm</string>
+    <string name="btn_stop">Delete</string>
+    <string name="end_of_window">End time: </string>
+    <string name="start_of_window">Start time: </string>
+    <string name="repeat">Repeat:</string>
+    <string name="change">Change</string>
+    <string name="edit">Edit</string>
+    <string name="volume">Volume</string>
+    <string name="licensing" autolink="web">All music is licensed under an <a href='https://creativecommons.org/licenses/by-nc/3.0/'>Attribution-NonCommercial 3.0 International License.</a></string>
+    <string name="ringtone_name">Ringtone name</string>
+    <string name="ringtone_author">Ringtone author</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="no_ringtone">None</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+</resources>

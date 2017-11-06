@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/displayText</item>
+        <item name="android:buttonTint">@color/displayText</item>
+        <item name="android:windowSoftInputMode">stateHidden</item>
+    </style>
+
+    <!--to be applied to the parent of each layout-->
+    <style name="main" parent="AppTheme">
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <!--don't apply directly, use one of the children below-->
+    <style name="text">
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <!--for describing what is going on-->
+    <style name="textPrompt" parent="text">
+        <item name="android:textColor">@color/gorgeousBlue</item>
+    </style>
+
+    <!--for displaying information-->
+    <style name="textDisplay" parent="text">
+        <item name="android:textColor">@color/displayText</item>
+    </style>
+
+    <!--for buttons-->
+    <style name="myButtons">
+        <item name="android:padding">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/darkText</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/rounded_corner</item>
+    </style>
+
+    <!--for the switches on the list of alarms-->
+    <style name="ToggleSwitchTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@color/gorgeousBlue</item>
+    </style>
+
+</resources>
